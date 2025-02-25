@@ -15,6 +15,7 @@ body{
     width: 500px;
     height: 320px;
     background:linear-gradient(to right,#e8e8e8,#c1c1c1);
+    border: 2px solid #555;
 }
 
 .teclado{
@@ -40,4 +41,29 @@ body{
     cursor: pointer;
     box-shadow: 2px 2px 0px #555;
 }
+
+.botao--branco{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    width: 90px;
+    height: 50px;
+}
+
+.botao--corrigir{
+    background-color: #f09046;
+    color: black;
+    font-size: 15px;
+    width: 90px;
+    height: 50px;
+}
+
+.botao--confirmar{
+    background-color: #48c079;
+    color: black;
+    font-size: 15px;
+    width: 90px;
+    height: 50px;
+}
+
 
